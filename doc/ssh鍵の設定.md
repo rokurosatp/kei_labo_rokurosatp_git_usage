@@ -146,12 +146,12 @@ bitbucketを開いたら右下のサムネイルをクリック(1)して、`BitB
 
 sshを利用する場合、デフォルトのhttps利用の場合とリモートリポジトリのアドレスが異なります。アドレスのフォーマットはサービスによって異なるので新しいサービスを使う場合は確認しておいてください。
 
-既存のbitbucketリポジトリのアドレスはブラウザから取得するほうが手っ取り早いです。リポジトリの概要画面からURLをコピーできます。
+既存のbitbucketリポジトリのアドレスはブラウザから取得するのが手っ取り早いです。リポジトリの概要画面からURLをコピーできます。
 
 ![urlの取得](./ssh_bitbucket_url.png)
 
 
-ちなみにbitbucketの個人リポジトリ場合は
+ちなみにbitbucketのリモートURLは個人リポジトリ場合
 
     HTTPS: https://bitbucket.org/username/repository.git
     SSH: git@bitbucket.org:username/repository.git
