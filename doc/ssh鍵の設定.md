@@ -153,7 +153,7 @@ sshを利用する場合、デフォルトのhttps利用の場合とリモート
 
 ちなみにbitbucketのリモートURLは個人リポジトリ場合
 
-    HTTPS: https://bitbucket.org/username/repository.git
+    HTTPS: https://username@bitbucket.org/username/repository.git
     SSH: git@bitbucket.org:username/repository.git
 
 チームリポジトリの場合は
